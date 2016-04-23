@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+<link rel="stylesheet" type="text/css" media="all" href="style/contact.css">
+
+</head>
+<body>
+
+
+
+
+          
+
+
+
+              
+                  <div class="sc_contact_form">
+
+                    <form action="include/sendmail.php" method="post">
+                      <div class="field">
+                        <label class="required" for="sc_contact_form_username">Nom</label>
+                        <input type="text" name="username" id="sc_contact_form_username" />
+                      </div>
+                      <div class="field">
+                        <label class="required" for="sc_contact_form_email">Email</label>
+                        <input type="text" name="email" id="sc_contact_form_email" />
+                      </div>
+                      <div class="field message">
+                        <label class="required" for="sc_contact_form_message">Votre Message</label>
+                        <textarea name="message" id="sc_contact_form_message"></textarea>
+                      </div>
+                      <div class="button"> <a class="enter" href="#"><span>Envoyer</span></a> </div>
+                    </form>
+                    <div class="result sc_infobox"></div>
+                  </div>
+      
+
+
+
+  
+
+
+<!-- connect js --> 
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+<script type="text/javascript" src="js/jquery.qrcode-0.6.0.min.js"></script> 
+<script type="text/javascript" src="js/utils.js"></script> 
+<script type="text/javascript" src="js/lib.js"></script>
+</body>
+</html>
